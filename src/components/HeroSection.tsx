@@ -40,7 +40,7 @@ export default function HeroSection() {
   return (
     <section className="relative min-h-[90vh] lg:min-h-screen pt-24 lg:pt-32 pb-16 lg:pb-12 flex items-center justify-center overflow-hidden bg-paper">
       {/* Motif subtil en arrière-plan */}
-      <div className="absolute inset-0 pointer-events-none opacity-[0.04] z-0 [mask-image:linear-gradient(to_bottom,transparent,black_15%,black_40%,transparent)]">
+      <div className="absolute inset-0 pointer-events-none opacity-[0.04] z-0 [mask-image:linear-gradient(to_bottom,transparent,black_15%,black_85%,transparent)]">
         <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <pattern id="bogolan" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">

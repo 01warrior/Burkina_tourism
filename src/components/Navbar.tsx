@@ -44,9 +44,6 @@ export default function Navbar() {
     >
       <div className="h-full px-6 md:px-12 flex justify-between items-center">
         <a href="#" className="flex items-center gap-2 z-50 relative">
-          <div className="w-8 h-8 bg-ocre rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-xs">BF</span>
-          </div>
           <span className="font-serif italic text-2xl tracking-tighter text-ink-dark">Burkina Tourism</span>
         </a>
 
