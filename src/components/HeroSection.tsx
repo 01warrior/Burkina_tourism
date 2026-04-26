@@ -58,10 +58,10 @@ export default function HeroSection() {
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16 mt-8 sm:mt-12 md:mt-0">
         
         <motion.div
-          initial={{ opacity: 0, x: -30 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, ease: "easeOut" }}
-          className="max-w-xl z-10"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="max-w-xl z-10 will-change-transform"
         >
           <div className="flex items-center gap-3 mb-6">
             <span className="h-[1px] w-12 bg-gold"></span>
@@ -97,10 +97,10 @@ export default function HeroSection() {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, x: 30 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
-          className="relative w-full max-w-[320px] sm:max-w-[380px] md:max-w-[420px] lg:max-w-[460px] aspect-square md:aspect-[4/4.5] lg:aspect-[4/4.8] flex-shrink-0 mx-auto lg:mx-0 mt-12 lg:mt-0"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
+          className="relative w-full max-w-[320px] sm:max-w-[380px] md:max-w-[420px] lg:max-w-[460px] aspect-square md:aspect-[4/4.5] lg:aspect-[4/4.8] flex-shrink-0 mx-auto lg:mx-0 mt-12 lg:mt-0 will-change-transform"
         >
           <div className="absolute inset-0 bg-gold rounded-full translate-x-8 md:translate-x-12 translate-y-8 md:translate-y-12 opacity-10 blur-2xl"></div>
           
