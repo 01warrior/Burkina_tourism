@@ -71,8 +71,8 @@ export default function HeroSection() {
           <h1 className="text-[40px] sm:text-[56px] md:text-[72px] leading-[1.15] md:leading-[1.2] font-serif mb-6 md:mb-8 text-ink-dark">
             L'Afrique <br/>
             <span className="inline-block relative my-2 md:my-4">
-              <span className="absolute inset-x-[-12px] inset-y-[-2px] bg-espoir transform -rotate-1 shadow-lg rounded-md"></span>
-              <span className="relative text-white px-4 md:px-6 font-sans font-black italic">Authentique</span>
+              <span className="absolute inset-x-[-12px] inset-y-[-2px] bg-red-vif transform -rotate-1 shadow-lg rounded-md"></span>
+              <span className="relative text-white px-4 md:px-6 font-sans font-black italic tracking-tighter">Authentique</span>
             </span><br/>
             vous attend.
           </h1>
