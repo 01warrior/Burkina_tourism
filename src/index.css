@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-ocre: #C16A3E;
+  --color-ocre-light: #D48A64;
+  --color-ocre-dark: #A0522B;
+  --color-espoir: #2A5A30;
+  --color-espoir-light: #3D8246;
+  --color-sand: #FDFCF8;
+  --color-red-vif: #E35D5D;
+  --color-gold: #F1B22B;
+  --color-ink: #2D2A26;
+  --color-ink-dark: #1A1A1A;
+  --color-paper: #FDFCF8;
+  --color-border: #E8E4D9;
+  --color-muted: #5C564E;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-serif);
+}
+
+.map-placeholder {
+  background-image: radial-gradient(var(--color-sand) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-color: var(--color-paper);
+}
+
+/* Hide scrollbar for clean horizontal scrolls */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
